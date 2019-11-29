@@ -13,7 +13,7 @@ steps:
    '-t', 
    'gcr.io/$PROJECT_ID/react-app:$BRANCH_NAME-$COMMIT_SHA',
    '-t', 
-   'gcr.io/$PROJECT_ID/<app-name>:latest',
+   'gcr.io/$PROJECT_ID/react-app:latest',
    '.'
   ]
 #step 3
